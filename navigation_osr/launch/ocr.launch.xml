@@ -1,0 +1,10 @@
+<launch>
+
+  <node pkg="navigation_osr" exec="ocr" name="ocr1"/>
+  <node pkg="navigation_osr" exec="tf_listener" name="tf_listener1"/>  
+  <node pkg="ros2_laser_scan_matcher" exec="laser_scan_matcher" name="laser_scan_matcher1"/>
+  <node pkg="navigation_osr" exec="color_segmentation" name="color_segmentation1"/>
+  <node pkg="navigation_osr" exec="vision_prueba_1" name="vision_prueba_1_1"/>
+  
+  
+</launch>

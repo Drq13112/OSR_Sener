@@ -1,0 +1,6 @@
+<launch>
+
+  <node pkg="navigation_osr" exec="tf_listener" name="tf_listener1"/>
+  <node pkg="navigation_osr" exec="navigation_osr_node" name="navigation_osr_node1"/>
+  
+</launch>
